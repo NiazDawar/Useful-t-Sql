@@ -5,13 +5,16 @@ Go
 /*========================================================================================
 -- SCRIPT PURPOSE			: SQL Server Instance/Databases Health check and assesments.
 -- CREATED BY				: Niaz Dawar Whatsapp +92 335 844 3565, Email: NiazDawar@yahoo.com
--- STATUS					: complete.
+-- STATUS				: complete.
 -- CREATED ON				: 2023-01-01
--- OUTPUT					: Table one. Copy to notepad and save it as .html
-							: Table two. copy to excel sheet.
+-- OUTPUT				: Table one. Copy to notepad and save it as .html
+					: Table two. copy to excel sheet.
 -- PARAMETERS				: An excel sheet of 97 parameters set, that enable/disable query executions.
--- DETAIL					: A bunch of 97 queries use in health check and other queries that will look into data
-							: Divided into Main/Sub catagories.
+
+-- DETAIL				: A bunch of 97 queries use in health check and other queries that will look into data
+					: Divided into Main/Sub catagories.
+-- DESCRIPTION
+	
 --Total no. of queries : 97
 -----------------------------------------------------------------------------------------------------------------*/
 DECLARE @includefooter bit =0 -- 0: include
